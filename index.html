@@ -20,6 +20,8 @@
     <link rel="stylesheet" href="css/all.min.css">
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link class="chage" rel="stylesheet" href="css/style-white.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    
 </head>
 <body>
      <!-- =======================
@@ -28,11 +30,7 @@
     <div class="preloder">
         <img src="image/preloder.png" alt="">
         <img class="sv" src="image/circles.svg" alt="">
-
     </div>
-
-
-
 
        <!-- =======================
            preloader part
@@ -73,16 +71,16 @@
 <header>
     <div class="container">
        <div class="row">
-        <div class="col-lg-6 ">
+        <div class="col-lg-6 col-md-6">
             <ul class="headr ">
                 <i class="fas fa-envelope"></i> 
                 <li>info@redchili.com</li>
          
         </div>
-           <div class="col-lg-6 ms-auto">
+           <div class="col-lg-6 col-md-6 ms-auto">
                <ul class="head had">
                    <li><i class="fas fa-motorcycle"></i></li>
-                   <li><p>Express Delivery +1 234 567 890</p></li>
+                   <li><p class="ex">Express Delivery +1 234 567 890</p></li>
                </ul>
            </div>
        </div>
@@ -100,7 +98,7 @@
         <div class="container">
           <a class="navbar-brand" href="#"><img src="image/logo.png" alt=""></a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
+            <i class="fas fa-bars"></i>
           </button>
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
@@ -111,10 +109,10 @@
                 <a class="nav-link" href="#">Menu</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">offer</a>
+                <a class="nav-link" href="#offer-part">offer</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Reservation</a>
+                <a class="nav-link" href="#reservation-part">Reservation</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="#">contact us</a>
@@ -180,7 +178,7 @@
     <section id="about-part">
         <div class="container">
             <div class="row">
-                <div class="col-lg-6">
+                <div class="col-lg-6 ">
                     <div class="item">
                         <h4>Try it today</h4>
                         <h3>Most Popular Burger</h3>
@@ -307,7 +305,7 @@
      <div class="container">
         <div class="row">
             <div class="event">
-              <div class="col-lg-4">
+              <div class="col-lg-4 col-md-4">
                 <div class="item">
                 
                     <div class="main">
@@ -325,7 +323,7 @@
                 
                 </div>
               </div>
-               <div class="col-lg-4">
+               <div class="col-lg-4 col-md-4">
                 <div class="item">
                     
                     <div class="main">
@@ -561,9 +559,9 @@
     <footer class="footer-part">
         <div class="container">
             <div class="row">
-                <div class="col-lg-4">
+                <div class="col-lg-4 col-md-4">
                     <div class="item">
-                        <img src="image/logo.png" alt="">
+                        <img class="logu" src="image/logo.png" alt="">
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam at dignissim nunc, id maximus ex. Etiam nec dignissim elit, at dignissim enim. </p>
                         <ul class="list">
                             <li class="lis"><i class="fab fa-facebook-f"></i></li>
@@ -573,7 +571,7 @@
                         </ul>
                     </div>
                 </div>
-                <div class="col-lg-2">
+                <div class="col-lg-2 col-md-2">
                     <div class="item">
                         <h3>About</h3>
                         <ul>
@@ -584,7 +582,7 @@
                         </ul>
                     </div>
                 </div>
-                <div class="col-lg-2">
+                <div class="col-lg-2 col-md-2">
                     
                         <div class="item">
                             <h3 class="ser">Services</h3>
@@ -597,7 +595,7 @@
                         </div>
                     
                 </div>
-                <div class="col-lg-2">
+                <div class="col-lg-2 col-md-2">
                     
                     <div class="item">
                         <h3 class="other">Adress</h3>
@@ -610,7 +608,7 @@
                     </div>
                 
             </div>
-            <div class="col-lg-2">
+            <div class="col-lg-2 ">
                     
                 <div class="item">
                     <h3 class="ins">We are on Insta</h3>
@@ -635,6 +633,9 @@
     <!-- ===============
         footer part end
     ===================== -->
+        <!-- ===============
+        copy  part start
+    ===================== -->
     <div class="copy-part">
         <div class="container">
            <div class="copy">
@@ -642,6 +643,9 @@
            </div>
         </div>
     </div>
+    <!-- ===============
+        copy  part end
+    ===================== -->
 
 
 
@@ -653,61 +657,3 @@
     <script src="js/script.js"></script>
 </body>
 </html>
-<!--   <section id="event-part">
-        <div class="event">
-            <div class="item">
-            <div class="container">
-                <div class="main">
-                    <div class="left">
-                        <h3>Discover</h3>
-                        <h1>Upcoming Events</h1>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis. </p>
-                    </div>
-                    <div class="right">
-                        <img src="image/event-burgar.png" alt="">
-
-                    </div>
-
-                </div>
-            </div>
-            </div>
-            <div class="item">
-                <div class="container">
-                    <div class="main">
-                        <div class="left">
-                            <h3>Discover</h3>
-                            <h1>Upcoming Events</h1>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis. </p>
-                        </div>
-                        <div class="right">
-                            <img src="image/event-burgar.png" alt="">
-                            
-                        </div>
-    
-                    </div>
-                </div>
-                </div>
-
-                <div class="item">
-                    <div class="container">
-                        <div class="main">
-                            <div class="left">
-                                <h3>Discover</h3>
-                                <h1>Upcoming Events</h1>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis. </p>
-                            </div>
-                            <div class="right">
-                                <img src="image/event-burgar.png" alt="">
-                                
-                            </div>
-        
-                        </div>
-                    </div>
-                    </div>
-          
-           
-        </div>
-
-
-
-    </section> -->
